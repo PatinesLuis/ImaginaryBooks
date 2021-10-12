@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/logo.png">
+    <title>Imaginary books</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Scripts -->
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/e61d19e1a1.js" crossorigin="anonymous"></script>
+
+    <!-- progress bar -->
+    <script src="js/progressbar.min.js"></script>
+
+    <!-- parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+    <!-- fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+      <div class="container" id="nav-container">
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <a href="#" class="navbar-brand">
+            <img id="logo" src="img/logo.png" alt="logo"> Imaginary Books
+          </a>
+
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+           aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation">
+
+           <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+
+            <div class="navbar-nav">
+              <a class="navbar-item nav-link" id="home-menu">Home</a>
+              <a class="navbar-item nav-link" id="about-menu">Sobre a IB</a>
+              <a class="navbar-item nav-link" id="books-menu">Livros</a>
+              <a class="navbar-item nav-link" id="portfolio-menu">Projetos</a>
+              <a class="navbar-item nav-link" id="contact-menu">contato</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+  </header>
+
+  <main>
+    <div class="container-fluid">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carousel_1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Quer criar sua história?</h2>
+              <p>Tire sua história da imaginação e venha digitar.</p>
+              <a href="#" class="main-btn">Escreva sua história</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel_2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Quer criar sua história?</h2>
+              <p>Tire sua história da imaginação e venha digitar.</p>
+              <a href="#" class="main-btn">Escreva sua história</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel_3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Quer criar sua história?</h2>
+              <p>Tire sua história da imaginação e venha digitar.</p>
+              <a href="#" class="main-btn">Escreva sua história</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div id="about-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Sobre a IB</h3>
+            </div>
+            <div class="col-md-6">
+              <img class=img-fluid" src="img/biblioteca.jpg" alt="biblioteca">
+            </div>
+            <div class="col-md-6">
+              <h3 class="about-title">Uma biblioteca virtual</h3>
+              <p>Quem nunca pensou naquela história de ficção, comédia ou até romance.</p>
+              <p>A Imaginary Books é uma biblioteca virtual onde você cria seu livro do seu jeito e coloca em nossas prateleiras virtuais. Somos um mundo de livro aberto, em branco e com vontade de sermos escritos</p>
+              <p>Nos somos fãs de:</p>
+              <ul id="about-list">
+                <li><i class="fas fa-check"></i>FANFIC </li>
+                <li><i class="fas fa-check"></i>FICÇÃO </li>
+                <li><i class="fas fa-check"></i>ROMANCE </li>
+                <li><i class="fas fa-check"></i>FANTASIA </li>
+                <li><i class="fas fa-check"></i>E O QUE VOCÊ DESEJAR ESCREVER !! </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
