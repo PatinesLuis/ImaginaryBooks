@@ -151,11 +151,61 @@ margin-right: 150px;
 }
 
 #about-list i {
-    color: rgb(253, 228, 0);
+    color: rgb(18, 65, 58);
     margin-right: 15px;
 }
 
+.icons-theme i{
+    color: red;
+}
 
+/* books */
+.books-area{
+    background-color: rgb(182, 182, 255);
+}
+
+.col-md-4{
+    padding: 0;
+    
+}
+.col-md-4 img{
+    width: 70%;
+}
+.img-book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content-book{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-book i {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.content-book i:hover{
+    color: rgb(55, 208, 247);
+}
+
+.content-book h3{
+    text-align: center;
+}
+
+.text-decoration{
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+}
 
 
 
