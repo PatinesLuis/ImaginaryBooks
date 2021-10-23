@@ -129,9 +129,6 @@ margin-right: 150px ;
 .col-md-6 img{
     width: 100%;
 }
-#about-area{
-    background-color: rgb(199, 191, 191);
-}
 
 .main-title {
     color: rgb(6, 72, 170);
@@ -232,5 +229,14 @@ margin-right: 150px ;
     margin-top: 20px;
 }
 
+/* criador */
 
+.card {
+  width: 50%;
+  margin: auto;
+}
+
+.card-body{
+    text-align: center;
+}
 
