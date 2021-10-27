@@ -36,31 +36,26 @@
 <body>
 
   <header>
-      <div class="container" id="nav-container">
-        <nav class="navbar navbar-expand-lg fixed-top">
-          <a href="#" class="navbar-brand">
-            <img id="logo" src="img/logo.png" alt="logo"> Imaginary Books
-          </a>
-
-          
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
-           aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation">
-
-           <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-
-            <div class="navbar-nav">
-              <a class="navbar-item nav-link" id="home-menu">Home</a>
-              <a class="navbar-item nav-link" id="about-area">Sobre a IB</a>
-              <a class="navbar-item nav-link" id="about-area">Livros</a>
-              <a class="navbar-item nav-link" id="team-area">Criador</a>
-              <a class="navbar-item nav-link" id="contact-menu">contato</a>
-            </div>
+    <div class="container" id="nav-container">
+      <!-- add essa class -->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="img/logo.png" alt="Imaginary Books"> Imaginary Books
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
+            <a class="nav-item nav-link" id="about-menu" href="#books-area">Books</a>
+            <a class="nav-item nav-link" id="services-menu" href="#about-area">Sobre</a>
+            <a class="nav-item nav-link" id="team-menu" href="#team-area">Dono</a>
+            <a class="nav-item nav-link" id="portfolio-menu" href="#news-area">contato</a>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
+    </div>
   </header>
 
   <main>
@@ -71,10 +66,10 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner" id="home-menu">
           <div class="carousel-item active">
             <img src="img/carousel_1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block">
               <h2>Quer criar sua história?</h2>
               <p>Tire sua história da imaginação e venha digitar.</p>
               <a href="#" class="main-btn">Escreva sua história</a>
@@ -82,7 +77,7 @@
           </div>
           <div class="carousel-item">
             <img src="img/carousel_2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption  d-md-block">
               <h2>Quer criar sua história?</h2>
               <p>Tire sua história da imaginação e venha digitar.</p>
               <a href="#" class="main-btn">Escreva sua história</a>
@@ -90,7 +85,7 @@
           </div>
           <div class="carousel-item">
             <img src="img/carousel_3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption  d-md-block">
               <h2>Quer criar sua história?</h2>
               <p>Tire sua história da imaginação e venha digitar.</p>
               <a href="#" class="main-btn">Escreva sua história</a>
@@ -107,35 +102,7 @@
         </button>
       </div>
 
-      <div id="about-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h3 class="main-title">SOBRE A IB</h3>
-            </div>
-            <div class="col-md-6">
-              <img class=img-fluid" src="img/biblioteca.jpg" alt="biblioteca">
-            </div>
-            <div class="col-md-6">
-              <h3 class="about-title">Uma biblioteca virtual</h3>
-              <p>Quem nunca pensou naquela história de ficção, comédia ou até romance.
-                queremos ver histórias escritas diferentes(fora do padrão).
-              </p>
-              <p>A Imaginary Books é uma biblioteca virtual onde você cria seu livro do seu jeito e coloca em nossas prateleiras virtuais. Somos um mundo de livro aberto, em branco e com vontade de sermos escritos.</p>
-              <p>Nos somos fãs de:</p>
-              <ul id="about-list">
-                <li><i class="fas fa-check"></i>FANFIC   <i class="fas fa-book"></i></i></li>
-                <li><i class="fas fa-check"></i>FICÇÃO  <i class="fas fa-user-astronaut"></i></li>  
-                <li><i class="fas fa-check"></i>ROMANCE  <i class="fas fa-heartbeat"></i> </li>
-                <li><i class="fas fa-check"></i>FANTASIA  <i class="fab fa-fort-awesome"></i></li>
-                <li><i class="fas fa-check"></i>E O QUE VOCÊ DESEJAR ESCREVER !!  <i class="fas fa-pen"></i></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-        <div class="books-area">
+        <div class="books-area" id="books-area">
           <div class="container">
             <div class="row">
               <div class="col-12">
@@ -171,6 +138,34 @@
             <p class="text-decoration">Um adolescente que esconde um segredo e está louco para compartilhar com seus amigos<a href="#">(ler mais..)</p></a>
           </div>
           </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="about-area" >
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h3 class="main-title">SOBRE A IB</h3>
+              </div>
+              <div class="col-md-6">
+                <img class=img-fluid" src="img/biblioteca.jpg" alt="biblioteca">
+              </div>
+              <div class="col-md-6">
+                <h3 class="about-title">Uma biblioteca virtual</h3>
+                <p>Quem nunca pensou naquela história de ficção, comédia ou até romance.
+                  queremos ver histórias escritas diferentes(fora do padrão).
+                </p>
+                <p>A Imaginary Books é uma biblioteca virtual onde você cria seu livro do seu jeito e coloca em nossas prateleiras virtuais. Somos um mundo de livro aberto, em branco e com vontade de sermos escritos.</p>
+                <p>Nos somos fãs de:</p>
+                <ul id="about-list">
+                  <li><i class="fas fa-check"></i>FANFIC   <i class="fas fa-book"></i></i></li>
+                  <li><i class="fas fa-check"></i>FICÇÃO  <i class="fas fa-user-astronaut"></i></li>  
+                  <li><i class="fas fa-check"></i>ROMANCE  <i class="fas fa-heartbeat"></i> </li>
+                  <li><i class="fas fa-check"></i>FANTASIA  <i class="fab fa-fort-awesome"></i></li>
+                  <li><i class="fas fa-check"></i>E O QUE VOCÊ DESEJAR ESCREVER !!  <i class="fas fa-pen"></i></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -218,12 +213,61 @@
             </div>
           </div>
         </div>
+
+        <!-- entre em contato -->
+          <div id="news-area">
+            <div class="container">
+            <div class="col-md-12">
+              <h3 class="main-title">FIQUE POR DENTRO DAS NOVIDADES</h3>
+            </div>
+            <p>Assine nossa lista de e-mails e receba conteudos exclusivos sobre nossos books.</p>
+            <form action="">
+              <input type="email" class="form-control" id="email-input" name="email" placeholder="Seu E-mail">
+              <input type="submit" id="news-btn" value="Inscreva-se">
+            </form>
+          </div>
+        </div>
     </div>
   </main>
 
+   <!-- RODAPÉ -->
+
+   <footer>
+    <div id="contact-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="main-title">CONTATO</h3>
+          </div>
+          <div class="col-md-4 contact-box">
+            <i class="fas fa-phone"></i>
+            <p><span class="contact-title">Ligue para</span>(51)992693450</p>
+            <p><span class="contact-title">Horários</span>17:00 - 21:00</p>
+          </div>
+          <div class="col-md-4 contact-box">
+            <i class="fas fa-envelope"></i>
+            <p><span class="contact-title">Envie um E-mail</span>luispatines17@gmail.com</p>
+          </div>
+          <div class="col-md-4 contact-box">
+            <i class="fas fa-money-bill-wave-alt"></i>
+            <p><span class="contact-title">manda um pix</span>as duas chaves é meu numero e e-email</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="copy-area">
+      <div class="container">
+        <div class="col-md-12">
+          <p>Desenvolvido por <a href="">Luis Eduardo</a> &copy; 2021</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 
+  <!-- SCRIPT DO PROJETO -->
     <script src="js/script.js"></script>
 </body>
 </html>
